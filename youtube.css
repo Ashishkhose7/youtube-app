@@ -1,0 +1,63 @@
+.card-div {
+    height: 110px;
+    display: flex;
+}
+
+.main-container {
+    height: 465px;
+}
+
+.video-div {
+    height: 400px;
+}
+
+.content-div {
+    height: 465px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    ;
+}
+
+.content-div::-webkit-scrollbar {
+    width: 2px;
+}
+
+.content-div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px lightgray;
+    border-radius: 10px;
+}
+
+.content-div::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 10px;
+}
+
+.img-div {
+    height: 100%;
+    width: 85%;
+    cursor: pointer;
+}
+
+.cont-div {
+    height: 100%;
+    width: 100%;
+    font-size: small;
+    cursor: pointer;
+}
+
+span {
+    font-size: 14px;
+}
+
+.new-card {
+    height: 20px;
+    width: 40px;
+    margin-top: 10px;
+    font-size: small;
+    font-weight: bolder;
+    background-color: rgb(240, 238, 238);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
